@@ -10,6 +10,11 @@ router.post('/', async (req, res) => {
   res.status(201).json(newCart);
 });
 
+router.get('/', async (req, res) => {
+  const carts = await cartManager.getCarts();
+  res.json(carts);
+});
+
 router.get('/:cid', async (req, res) => {
   const cart = await cartManager.getCartById(Number(req.params.cid));
   cart ? res.json(cart.products) : res.status(404).json({ error: 'Carrito no encontrado' });
