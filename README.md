@@ -1,3 +1,5 @@
+¡Perfecto! Aquí tienes el archivo README.md actualizado con el enlace a tu repositorio para que quede listo para subir. Simplemente copia y pega todo el contenido.
+
 Backend E-commerce Básico con API REST y WebSockets
 Este proyecto es un servidor de backend desarrollado con Node.js y Express.js, diseñado para gestionar productos y carritos de compra para una aplicación de e-commerce. Implementa una API REST completa, persistencia de datos a través del sistema de archivos y funcionalidades en tiempo real utilizando WebSockets.
 
@@ -18,8 +20,8 @@ Abre tu terminal y clona el repositorio desde GitHub:
 
 Bash
 
-git clone URL_DE_TU_REPOSITORIO
-cd NOMBRE_DE_LA_CARPETA
+git clone https://github.com/germansz10/ecommerce.git
+cd ecommerce
 Instalar Dependencias
 El proyecto utiliza Node.js. Asegúrate de tenerlo instalado. Luego, instala las dependencias necesarias:
 
@@ -64,7 +66,7 @@ El proyecto también incluye vistas renderizadas del lado del servidor.
 Vista Principal (Estática)
 URL: http://localhost:8080/
 
-Descripción: Muestra una lista simple de todos los productos disponibles. Esta vista es estática y solo se carga una vez.
+Descripción: Muestra una lista simple de todos los productos disponibles. Fue creada para cumplir con los requisitos iniciales de tener una vista básica renderizada por el servidor.
 
 Vista en Tiempo Real
 URL: http://localhost:8080/realtimeproducts
