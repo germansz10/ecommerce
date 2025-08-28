@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Camisa negra",
+    "description": "Camisa manga corta, color negro",
+    "price": 4500,
+    "thumbnail": "camisa.jpg",
+    "code": "CAM001",
+    "stock": 15,
+    "status": true,
+    "category": "sin categoría",
+    "thumbnails": []
+  },
+  {
+    "id": 2,
+    "title": "jean",
+    "description": "pantalon de jean",
+    "price": 100000,
+    "thumbnail": "sin-imagen.jpg",
+    "code": "2",
+    "stock": 4,
+    "status": true,
+    "category": "sin categoría",
+    "thumbnails": []
+  },
+  {
+    "id": 3,
+    "title": "remera",
+    "description": "remera de algodon",
+    "price": 5000,
+    "thumbnail": "sin-imagen.jpg",
+    "code": "3",
+    "stock": 6,
+    "status": true,
+    "category": "sin categoría",
+    "thumbnails": []
+  }
+]
