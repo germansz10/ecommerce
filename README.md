@@ -1,5 +1,3 @@
-¡Perfecto! Aquí tienes el archivo README.md actualizado con el enlace a tu repositorio para que quede listo para subir. Simplemente copia y pega todo el contenido.
-
 Backend E-commerce Básico con API REST y WebSockets
 Este proyecto es un servidor de backend desarrollado con Node.js y Express.js, diseñado para gestionar productos y carritos de compra para una aplicación de e-commerce. Implementa una API REST completa, persistencia de datos a través del sistema de archivos y funcionalidades en tiempo real utilizando WebSockets.
 
